@@ -32,8 +32,8 @@ render() {
                 <span>Sign in with your email and password</span>
 
                 <form onSubmit={this.handleSubmit}>
-                    <FormInput label={'email'} name={'email'} handleChange={this.handleChange} type={'email'} value={this.state.email} required={'true'}/>
-                    <FormInput label={'password'} name={'password'} handleChange={this.handleChange} type={'password'} value={this.state.password} required={'true'}/>
+                    <FormInput label={'email'} name={'email'} handleChange={this.handleChange} type={'email'} value={this.state.email} required/>
+                    <FormInput label={'password'} name={'password'} handleChange={this.handleChange} type={'password'} value={this.state.password} required/>
                     <div className={'buttons'}>
                         <CustomButton type={'submit'}>SIGN IN</CustomButton>
                         <CustomButton onClick={signInWithGoogle} isGoogleSignIn={'true'}>SIGN IN WITH GOOGLE</CustomButton>
