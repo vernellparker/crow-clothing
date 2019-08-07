@@ -1,5 +1,6 @@
+import {UserActionTypes} from './user.types'
+
 export const setCurrentUser = (user) => ({
-    //TODO: Make a constants file to remove literals
-    type: 'SET_CURRENT_USER',
+    type: UserActionTypes.SET_CURRENT_USER,
     payload: user
 });
