@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca9c3441-949c-4968-bd6a-44a6db4c33c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +32,11 @@
     <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1P4hSFlEkHtGuRSdw9eyBXbbzq1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
@@ -37,12 +51,13 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Udemy\crown-clothing\src\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Udemy\crown-clothing\src\assets" />
       <recent name="F:\Udemy\crown-clothing\src\pages\homepage" />
       <recent name="F:\Udemy\crown-clothing\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Udemy\crown-clothing\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,7 +101,7 @@
       <workItem from="1565045742414" duration="12023000" />
       <workItem from="1565138410307" duration="664000" />
       <workItem from="1565139278516" duration="29000" />
-      <workItem from="1565139321785" duration="5451000" />
+      <workItem from="1565139321785" duration="9977000" />
     </task>
     <servers />
   </component>
@@ -105,5 +120,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
