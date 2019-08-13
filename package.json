@@ -33,5 +33,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-history-api-fallback": "^2.2.1",
+    "rekit-core": "^2.3.4",
+    "rekit-studio": "^2.4.1"
+  }, 
+    "rekit": { "studioPort": 6090 }
+  
 }

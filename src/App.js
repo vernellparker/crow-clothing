@@ -56,8 +56,6 @@ class App extends React.Component{
             </div>
         );
     }
-
-
 }
 const mapStateToProps =({user}) =>({
   currentUser: user.currentUser
